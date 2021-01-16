@@ -84,13 +84,13 @@ let touchTest = new THREE.Vector2();
 
 // CREATE THE EARTH
 // Earthmap is used for the basic texture which has the various continents/countries/etc. on it
-let earthMap = new THREE.TextureLoader().load( '../resources/img/earthmap4k.jpg' );
+let earthMap = new THREE.TextureLoader().load( '../Resume-Website/resources/img/earthmap4k.jpg' );
 
 // EarthBumpMap is used to give the texture some "depth" so it is more appealing on eyes and data visuals
-let earthBumpMap = new THREE.TextureLoader().load( '../resources/img/earthbump4k.jpg' );
+let earthBumpMap = new THREE.TextureLoader().load( '../Resume-Website/resources/img/earthbump4k.jpg' );
 
 // EarthSpecMap gives the earth some shininess to the environment, allowing reflectivity off of lights
-let earthSpecMap = new THREE.TextureLoader().load( '../resources/img/earthspec4k.jpg' );
+let earthSpecMap = new THREE.TextureLoader().load( '../Resume-Website/resources/img/earthspec4k.jpg' );
 
 // Geometry is what the shape/size of the globe will be
 let geometry = new THREE.SphereGeometry( 10, 32, 32 );
@@ -123,12 +123,12 @@ scene.add( parent );
 createSkyBox = (scene) => {
     const loader = new THREE.CubeTextureLoader();
     const texture = loader.load([
-        '../resources/img/space_right.png',
-        '../resources/img/space_left.png',
-        '../resources/img/space_top.png',
-        '../resources/img/space_bot.png',
-        '../resources/img/space_front.png',
-        '../resources/img/space_back.png',
+        '../Resume-Website/resources/img/space_right.png',
+        '../Resume-Website/resources/img/space_left.png',
+        '../Resume-Website/resources/img/space_top.png',
+        '../Resume-Website/resources/img/space_bot.png',
+        '../Resume-Website/resources/img/space_front.png',
+        '../Resume-Website/resources/img/space_back.png',
     ])
     scene.background = texture;
 };
