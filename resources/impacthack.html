@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>IMPACTGLOBE</title>
+		<link rel="stylesheet" type="text/css" href="../css/impacthack_2020.css" media="screen" />
+		<script type="text/javascript" src="../js/three.js"></script>
+		<script type="text/javascript" src="../js/OrbitControls.js"></script>
+	</head>
+	<body>
+		<div id="title-subtitle">
+			<div id="main-title">IMPACT GLOBE</div>
+			<div id="main-subtitle">By David Grice</div>
+		</div>
+
+		<div id="change-display">
+			
+			<div id="title">Choose an option below!</div>
+			<button id="embassy">Current Posts</button>
+			<button id="timeline">Diplomatic Timeline</button>
+			<button id="history">Historical Events</button>
+			<button id="instructions" onclick=instructionFunc()>Instructions</button>
+		</div>
+
+		<div id="info-box">
+			<div id="title">
+				Choose a year starting from 1779
+			</div>
+			<input type="number" min="1778" max="2020" value="1778" id="slider" orient="horizontal">
+			<div id="country"></div>
+			<div id="establish-legation"></div>
+			<div id="elevate-to-embassy"></div>
+			<div id="establish-embassy"></div>
+			<div id="closure"></div>
+			<div id="reopen-legation"></div>
+			<div id="reopen-embassy"></div>
+		</div>
+		
+		<div id="info-box-two">
+			<div id="title-two">
+				USA Posts Worldwide
+			</div>
+			<div id="bureau"></div>
+			<div id="country-two"></div>
+			<div id="post"></div>
+			<div id="language"></div>
+			<div id="status"></div>
+			<div id="more-info-box">
+				<div id="more-info-title">Find out more!</div>
+				<button id="social-url" href="#" onclick=socialUrlFunc()>Social</button>
+				<button id="embassy-url" href="#" onclick=embassyUrlFunc()>Embassy</button>
+			</div>
+		</div>
+
+		<div id="diplomacy-box">
+			<div id="date-1">Click on a photo to begin!</div>
+			<div id="event">Click and drag to move around!</div>
+			<div id="diplomacy-buttons">
+				<button id="source-1" href="#" onclick=sourceOneFunc()></button>
+				<button id="source-2" href="#" onclick=sourceTwoFunc()></button>
+			</div>
+		</div>
+		<div id="help-box">
+			<div id="help-title">Instructions</div>
+			<div id="help-subtitle">
+				<h4>Use your mouse to click and drag the globe around.
+				Click on the buttons in the "option box" to change the information being displayed.
+				Click on the points of interest/timeline photos to display their information.
+				Use your mouse scroll wheel to zoom in/out.
+				Have fun exploring the world!</h4>
+			</div>
+		</div>
+						
+		<script type="text/javascript" src="../js/impacthack_app.js"></script>
+		
+	</body>
+</html>
