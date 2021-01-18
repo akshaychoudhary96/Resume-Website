@@ -28,7 +28,7 @@ window.addEventListener('resize', () => {
 
 // Add Russian Flag for language selection
 var russianFlagGeo = new THREE.PlaneGeometry(15,10);
-var russianFlagTex = new THREE.TextureLoader().load('../Resume-Website/resources/img/russian_flag.png')
+var russianFlagTex = new THREE.TextureLoader().load('../resources/img/russian_flag.png')
 var russianFlagMat = new THREE.MeshLambertMaterial({map: russianFlagTex});
 var russianFlag = new THREE.Mesh(russianFlagGeo, russianFlagMat);
 russianFlag.position.z = -30;
@@ -40,7 +40,7 @@ scene.add(russianFlag)
 
 // Add American Flag for language selection
 var americanFlagGeo = new THREE.PlaneGeometry(15,10);
-var americanFlagTex = new THREE.TextureLoader().load('../Resume-Website/resources/img/american_flag.png')
+var americanFlagTex = new THREE.TextureLoader().load('../resources/img/american_flag.png')
 var americanFlagMat = new THREE.MeshLambertMaterial({map: americanFlagTex});
 var americanFlag = new THREE.Mesh(americanFlagGeo, americanFlagMat);
 americanFlag.position.z = -30;
@@ -52,7 +52,7 @@ scene.add(americanFlag)
 
 // Add text for user to choose language
 var planeTextGeo = new THREE.PlaneGeometry(15,10);
-var planeTextTex = new THREE.TextureLoader().load('../Resume-Website/resources/img/text.png')
+var planeTextTex = new THREE.TextureLoader().load('../resources/img/text.png')
 var planeTextMat = new THREE.MeshLambertMaterial({map: planeTextTex});
 var planeText = new THREE.Mesh(planeTextGeo, planeTextMat);
 planeText.position.z = -30;

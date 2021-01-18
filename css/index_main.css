@@ -242,7 +242,7 @@ li {
 
 .resume {
     text-align: center;
-    background: url("../Resume-Website/resources/img/background_template.png") no-repeat center ;
+    background: url("../resources/img/background_template.png") no-repeat center ;
     background-size: cover;
     font-size: 3rem;
     padding: 0;
@@ -340,7 +340,7 @@ li {
     width: 10rem;
     height: 10rem;
     border: 3px solid #FFD89B;
-    background: url("../Resume-Website/resources/img/background_template.png");
+    background: url("../resources/img/background_template.png");
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
@@ -403,7 +403,7 @@ li {
     transition: color 650ms;
     justify-content: space-between;
     text-align: center;
-    background: url("../Resume-Website/resources/img/background_template.png") no-repeat center fixed;
+    background: url("../resources/img/background_template.png") no-repeat center fixed;
     background-size: cover;
     border-radius: .8rem;
     border: 0 solid #FFD89B;
@@ -428,7 +428,7 @@ li {
     transition: color 650ms;
     justify-content: space-between;
     text-align: center;
-    background: url("../Resume-Website/resources/img/background_template.png") no-repeat center fixed;
+    background: url("../resources/img/background_template.png") no-repeat center fixed;
     background-size: cover;
     border-radius: .8rem;
     border: 0 solid #FFD89B;
@@ -571,7 +571,7 @@ input[type="submit"]:hover {
     border-radius: .8rem;
     border: 0 solid #FFD89B;
     transition: border .4s ease;
-    background: url("../Resume-Website/resources/img/background_template.png") no-repeat center fixed;
+    background: url("../resources/img/background_template.png") no-repeat center fixed;
     background-size: cover;
 }
 
@@ -584,7 +584,7 @@ input[type="submit"]:hover {
     border-radius: .8rem;
     border: 0 solid #FFD89B;
     transition: border .4s ease;
-    background: url("../Resume-Website/resources/img/background_template.png") no-repeat center fixed;
+    background: url("../resources/img/background_template.png") no-repeat center fixed;
     background-size: cover;
 }
 
