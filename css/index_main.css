@@ -47,11 +47,13 @@ img {
     height: 100%;
     margin: 0 auto;
     position: relative;
+    clear: both;
 }
 
 .section-heading {
     text-align: center;
     margin-bottom: 10rem;
+    clear: both;
 }
 
 .section-heading h1 {
@@ -61,6 +63,7 @@ img {
     font-weight: 300;
     position: relative;
     margin-bottom: 1rem;
+    clear: both;
 }
 
 .section-heading h1::before,
@@ -226,7 +229,7 @@ li {
     position: absolute;
     height: 7vh;
     width: 150px;
-    left: 45.2%;
+    left: 45%;
     padding: 5 5 5 5;
     justify-content: center;
     align-items: center;
