@@ -4,6 +4,8 @@
 	    
 	 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SXT6FV5GE5"></script>
+
+
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -11,7 +13,36 @@
 
   gtag('config', 'G-SXT6FV5GE5');
 </script>   
-	    
+
+<script src="kinetic-sdk-1.0.1.min.js"> </script> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/kinetic-sdk.min.js"></script>
+    <script type="text/javascript">
+    var options = {
+        logging: true,
+        trackingTimeSensitivity: 10,
+        mouseTrackingElement: '#trackarea',
+        debug: true,
+        autoTracking: true,
+        appKey: 'y8QNCS2DcGR2Kni',
+        appSecret: 'Awpf2GFofv1bRVCadMzP0pnsLm4aZyp/n4RNGfbI5lqHWibFvijSJM94pEM9EoIxZQ==',
+        trackingInterval: 60,
+        sensorPollingFrequency: 10,
+        packageId: 'web/zbankdemo.zighra.com'
+    }
+    $(document).ready(function() {
+        kinetic = new ZFS.KineticTracker(options);
+        kinetic.init();
+    });
+    </script>
+	  <script> 
+      var options = {
+          appKey: 'y8QNCS2DcGR2Kni',
+          appSecret: 'Awpf2GFofv1bRVCadMzP0pnsLm4aZyp/n4RNGfbI5lqHWibFvijSJM94pEM9EoIxZQ=='
+      };
+      var KineticTracker= new ZFS.KineticTracker();
+      KineticTracker.init();
+  </script>
         <title>Main Menu</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, user-scalable=no,initial-scale=1.0 , minimum-scale=1.0, maxiumum-scale=1.0">
